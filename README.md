@@ -29,7 +29,7 @@ public void onEnable()
 {
     Plugin plugin = Bukkit.getPluginManager().getPlugin("Ping");
     if (plugin == null || !plugin.isEnabled()) getLogger().warning("Ping（プラグイン）が存在しません。");
-    this.jecon = (Ping) plugin;
+    this.ping = (Ping) plugin;
 }
 ```
 

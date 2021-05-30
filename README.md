@@ -1,5 +1,6 @@
 # Ping  
-Get ping plugin for Bukkit/Spigot
+Get ping plugin for Bukkit/Spigot  
+[ダウンロード](https://github.com/M1n1don/Ping/releases/latest)
 
 ## Features  
 * 1.16.5対応

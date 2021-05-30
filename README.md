@@ -5,7 +5,7 @@ Get ping plugin for Bukkit/Spigot
 * 1.16.5対応
 * TabComplete対応
 * 非常にシンプルで使いやすい
-* 権限設定や表示されるメッセージなどは全てコンフィグから変更できます。
+* 権限設定や表示されるメッセージなどは全てコンフィグから変更できる
 * APIがある
 
 ## Commands  

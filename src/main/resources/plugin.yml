@@ -1,0 +1,8 @@
+name: Ping
+version: ${project.version}
+main: dev.m1n1don.ping.Ping
+api-version: 1.16
+
+commands:
+  ping:
+    description: Get ping

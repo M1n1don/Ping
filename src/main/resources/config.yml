@@ -1,0 +1,45 @@
+#########################################################
+# Ping Configuration File
+# Plugin version 1.0 (Minidon)
+# - Author Site: https://m1n1don.dev/
+# - Web Site: https://midorin.info/
+# - Discord: https://discord.gg/B4SYTyW
+##
+
+# prefix:
+#   プラグインのプレフィックス
+prefix: "§f[§aPing§f]"
+
+# sender_message:
+#   コマンド実行者のPingを表示した時のメッセージ
+#   PlaceHolder [ %PING% ]
+sender_message: "§fYour ping: §e%PING%§fms"
+
+# target_message:
+#   ターゲットのPingを表示した時のメッセージ
+#   PlaceHolders [ %PING% and %TARGET% ]
+target_message: "§f%TARGET%'s ping: §e%PING%§fms"
+
+# error_messages:
+#   permission:
+#     権限不足のエラーメッセージ
+#   console:
+#     コンソールから実行できないコマンドのエラーメッセージ
+error_messages:
+  permission: "§c権限がありません。"
+  console: "§cコンソールからは実行できません。"
+
+# opOnly:
+#   sender:
+#     /ping の実行者をOPのみにするか。
+#   target:
+#     /ping <target> の実行者をOPのみにするか。
+#   reload:
+#     コンフィグのリロードをするOPのみにするか。
+#
+#   true: OPのみ
+#   false: 全プレイヤー
+opOnly:
+  sender: false
+  target: true
+  reload: true

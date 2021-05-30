@@ -16,10 +16,7 @@ Get ping plugin for Bukkit/Spigot
 | /ping reload | コンフィグをリロード | OP |
 
 ## API  
-- Maven
-```java
-// coming soon...
-```
+このプラグインを開発ソフトで読み込ませてください。
 
 ## Usage  
 - onEnable
